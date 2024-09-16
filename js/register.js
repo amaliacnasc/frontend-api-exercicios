@@ -1,7 +1,6 @@
 
 
-async function clicou (event){
-    event.preventDefault(); 
+async function clicou (){
     try {
         const userName = document.querySelector('#userName').value;
         const password = document.querySelector('#password').value;     
