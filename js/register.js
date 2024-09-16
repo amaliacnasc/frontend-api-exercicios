@@ -1,6 +1,7 @@
 
 
 async function clicou (){
+    event.preventDefault();  // Previne o comportamento padrão do formulário
     try {
         const userName = document.querySelector('#userName').value;
         const password = document.querySelector('#password').value;     
