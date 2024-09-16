@@ -11,7 +11,7 @@ document.getElementById('form-exercicio').addEventListener('submit', async funct
         // Converte a imagem para base64
         const photo = await convertImageToBase64(photoInput);
 
-        const response = await fetch('http://localhost:3000/api/exercises/', { // Ajuste a URL conforme necessário
+        const response = await fetch('https://api-exercicios.onrender.com/api/exercises/', { // Ajuste a URL conforme necessário
             method: 'POST',
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('token'),
