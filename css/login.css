@@ -1,3 +1,4 @@
+
 .cor-nav{
     background-color: #198754;
 }
@@ -24,7 +25,7 @@
 
 .formulario{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
 }
@@ -35,3 +36,14 @@
     justify-content: center;
 }
 
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.cta{
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}
