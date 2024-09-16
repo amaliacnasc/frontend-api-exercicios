@@ -7,7 +7,7 @@ async function clicou (event){
         const password = document.querySelector('#password').value;     
 
        console.log({ userName, password }); // Verifica os valores capturados
-        const response = await fetch('http://localhost:3000/api/auth/register', { // Certifique-se de que a rota da API está correta
+        const response = await fetch('https://api-exercicios.onrender.com/api/auth/register', { // Certifique-se de que a rota da API está correta
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
